@@ -7,7 +7,7 @@ public class HelloWorld extends JFrame {
     public HelloWorld(){
         setContentPane(panel1);
         pack();
-        lblMensagem.setText("A Anna esteve aqui");
+        lblMensagem2.setText("A Anna esteve aqui");
     }
     public static void main(String[] args) {
         new HelloWorld().setVisible(true);
